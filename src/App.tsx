@@ -13,7 +13,7 @@ const App: React.FC = () => {
   const componentRef: any = useRef();
 
   return (
-    <div className="bg-rose-300 p-16 font-roboto flex flex-col justify-center text-black justify min-w-[25cm] overflow-hidden">
+    <div className="p-16 font-roboto flex flex-col justify-center text-black justify min-w-[25cm] overflow-hidden">
       <section
         ref={componentRef}
         className="bg-white p-1.5 w-[21cm] h-[29.7cm] min-w-[21cm] min-h-[29.7cm] max-w-[21cm] max-h-[29.7cm] overflow-hidden mx-auto flex flex-col gap-1.5"

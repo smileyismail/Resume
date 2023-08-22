@@ -1,24 +1,27 @@
 export const projects = [
   {
-    id: 34,
+    title: "E States",
+    tools: "React Native, React, Redux, Tailwind CSS",
+    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+    points: [
+      "Mobile App to add and view different properties for e-state company's.",
+    ],
+  },
+  {
     title: "Movies Hive",
     tools: "React Native, React, Tailwind CSS",
     link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+    points: ["A Mobile App with CRUD operations to manage the tasks."],
+  },
+  {
+    title: "Todo App",
+    tools: "React Native, React, Redux, React Navigation",
+    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
     points: [
-      "This Mobile App that showcases details all the Movies. The details are constantly updated through a connection to an API",
+      "This Mobile App showcases the details all the Movies. The details are constantly updated through a connection to an API",
     ],
   },
   {
-    id: 43,
-    title: "TodoPro",
-    tools: "React.js, Firebase, Node.js/Express.js, MongoDB",
-    link: "https://todopro-web.netlify.app/",
-    points: [
-      "A website designed to help users effectively manage their tasks.",
-    ],
-  },
-  {
-    id: 433,
     title: "Pennywise",
     tools: "React, Firebase, Tailwind CSS",
     link: "https://pennywisee.netlify.app/",
@@ -27,7 +30,15 @@ export const projects = [
     ],
   },
   {
-    id: 4443,
+    title: "TodoPro",
+    tools: "React.js, Firebase, Node.js/Express.js, MongoDB",
+    link: "https://todopro-web.netlify.app/",
+    points: [
+      "A website designed to help users effectively manage their tasks.",
+    ],
+  },
+
+  {
     title: "Rasoi House",
     tools: "React, Firebase, Tailwind CSS",
     link: "https://rasoi-housee.netlify.app/",

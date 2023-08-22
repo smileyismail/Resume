@@ -4,7 +4,7 @@ export const educations = [
 
     title: "B. Tech in Computer Science Engineering.",
     university: "JNTUH",
-    duration: "2017 - 2022",
+    duration: "2018 - 2022",
   },
   {
     id: 44,
