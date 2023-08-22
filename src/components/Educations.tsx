@@ -12,8 +12,8 @@ const Educations = () => {
         <h2 className="text-2xl font-bold mb-1 text-black">Education</h2>
       </div>
       <ul className="pl-7 text-sm flex flex-col gap-1 text-neutral-900">
-        {educations.map((education) => (
-          <li key={education.id} className="marker:text-accent list-disc">
+        {educations.map((education, index) => (
+          <li key={index} className="marker:text-accent list-disc">
             <p className="text-sm">{education.title}</p>
             <p className="text-xs">{education.university}</p>
             <p className="text-xs italic">{education.duration}</p>

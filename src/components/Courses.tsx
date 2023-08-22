@@ -12,8 +12,8 @@ const Courses = () => {
         <h2 className="text-2xl font-bold mb-1 text-black">Courses</h2>
       </div>
       <ul className="pl-7 text-sm flex flex-col gap-1.5 text-neutral-900">
-        {courses.map((courses) => (
-          <li key={courses.id} className="marker:text-accent list-disc">
+        {courses.map((courses, index) => (
+          <li key={index} className="marker:text-accent list-disc">
             <p className="text-sm">{courses.title}</p>
             <p className="text-xs">{courses.platform}</p>
           </li>

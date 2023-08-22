@@ -5,9 +5,9 @@ import { contacts } from "../data/contacts";
 const Contacts = () => {
   return (
     <div className="h-full text-sm flex flex-col justify-evenly">
-      {contacts.map((contact: any) => (
+      {contacts.map((contact: any, index) => (
         <a
-          key={contact.id}
+          key={index}
           href={contact.link}
           className="flex justify-start items-center gap-1 text-sm"
           target="_"

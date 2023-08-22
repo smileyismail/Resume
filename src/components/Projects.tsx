@@ -13,8 +13,8 @@ const Projects = () => {
         <h2 className="text-2xl font-bold mb-1 text-black">Projects</h2>
       </div>
       <ul className="pl-7 text-sm flex flex-col gap-1">
-        {projects.map((project) => (
-          <li key={project.id} className="marker:font-bold list-decimal">
+        {projects.map((project, index) => (
+          <li key={index} className="marker:font-bold list-decimal">
             <div className="flex gap-1 justify-cen items-center">
               <p className="text-base font-bold text-neutral-900">
                 {project.title}
@@ -27,9 +27,9 @@ const Projects = () => {
             </div>
 
             <ul className="pl-7 text-sm flex flex-col gap-1 m-1">
-              {project.points.map((point) => (
+              {project.points.map((point, index) => (
                 <li
-                  key={project.id}
+                  key={index}
                   className="marker:text-accent list-disc text-neutral-900"
                 >
                   {point}

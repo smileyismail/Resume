@@ -12,8 +12,8 @@ const Experiences = () => {
         <h2 className="text-2xl font-bold mb-1 text-black">Work Experience</h2>
       </div>
       <ul className="pl-7 text-sm flex flex-col gap-1">
-        {experience.map((item) => (
-          <li key={item.id} className="marker:font-bold list-decimal">
+        {experience.map((item, index) => (
+          <li key={index} className="marker:font-bold list-decimal">
             <p className="text-base">
               <span className="font-bold text-neutral-900">
                 {item.designation}

@@ -1,50 +1,50 @@
 export const skills = [
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 1,
     title: "Next.js / React.js",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 2,
     title: "React Native",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 3,
     title: "Node.js / Express.js",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 4,
     title: "MongoDb",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 5,
     title: "Firebase",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 6,
     title: "Redux / Redux Toolkit",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 7,
     title: "Tailwind CSS",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 8,
     title: "Material UI",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 9,
     title: "Bootstrap",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 10,
     title: "HTML / CSS / JavaScript",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 11,
     title: "Postman",
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
+    id: 12,
     title: "Git / Github",
   },
 ];

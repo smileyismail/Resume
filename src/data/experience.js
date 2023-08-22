@@ -1,8 +1,7 @@
 export const experience = [
   {
-    id: Math.floor(Math.random() * 100000).toString(),
-
-    company: " Dave Brother's Technology",
+    id: 1,
+    company: "Dave Brother's Technology",
     designation: "React.js Developer",
     type: "Internship",
     duration: "November 2022 - March 2023",
@@ -13,8 +12,7 @@ export const experience = [
     ],
   },
   {
-    id: Math.floor(Math.random() * 100000).toString(),
-
+    id: 2,
     company: "V-Cube Solutions",
     designation: "Front-End Developer",
     type: "contract",
