@@ -5,7 +5,7 @@ import { contacts } from "../data/contacts";
 const Contacts = () => {
   return (
     <div className="h-full text-sm flex flex-col justify-evenly">
-      {contacts.map((contact) => (
+      {contacts.map((contact: any) => (
         <a
           key={contact.id}
           href={contact.link}

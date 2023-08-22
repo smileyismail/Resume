@@ -5,7 +5,7 @@ const Bio = () => {
     <section className="h-full flex flex-col justify-evenly">
       <h1 className="text-3xl font-bold text-black">Syed Ismailuddin</h1>
 
-      <h2 className="text-xl font-medium text-accent">MERN | React Native</h2>
+      <h2 className="text-xl font-semibold text-accent">MERN | React Native</h2>
 
       <div className="text-sm text-justify flex flex-col justify-evenly text-neutral-900">
         <p className="indent-10">

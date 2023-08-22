@@ -9,14 +9,14 @@ import Skills from "./components/Skills";
 import Educations from "./components/Educations";
 import Courses from "./components/Courses";
 
-const App = () => {
+const App: React.FC = () => {
   const componentRef: any = useRef();
 
   return (
-    <main className="bg-red-300 p-16 font-roboto text-black overflow-scroll">
+    <main className="bg-rose-300 p-16 font-roboto text-black justify-center items-start flex flex-col min-w-[25cm] min-h-[35cm]">
       <section
         ref={componentRef}
-        className=" bg-white p-1.5 w-[21cm] h-[29.7cm] min-w-[21cm] min-h-[29.7cm] max-w-[21cm] max-h-[29.7cm] overflow-hidden mx-auto flex flex-col gap-1.5"
+        className="bg-white p-1.5 w-[21cm] h-[29.7cm] min-w-[21cm] min-h-[29.7cm] max-w-[21cm] max-h-[29.7cm] overflow-hidden mx-auto flex flex-col gap-1.5"
       >
         <section className="h-[25%] max-h-[25%] overflow-hidden flex gap-1.5">
           <div className="w-[70%] bg-primary rounded-md p-1.5">
@@ -48,11 +48,9 @@ const App = () => {
       <ReactToPrint
         trigger={() => {
           return (
-            <div className="flex justify-center">
-              <button className="bg-accent rounded-md text-black900 font-bold px-6 py-2 mt-5 mx-auto">
-                Print
-              </button>
-            </div>
+            <button className="bg-accent rounded-md text-black900 font-bold px-5 py-2.5 mt-5 mx-auto text-neutral-50 text-lg">
+              Print
+            </button>
           );
         }}
         content={(): any => componentRef.current}

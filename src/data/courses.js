@@ -1,21 +1,21 @@
 export const courses = [
   {
-    id: 1,
+    id: Math.floor(Math.random() * 100000).toString(),
     title: "React Native - The Practical Guide.",
     platform: "Udemy",
   },
   {
-    id: 2,
+    id: Math.floor(Math.random() * 100000).toString(),
     title: "React.js - The Complete Guide.",
     platform: "Udemy",
   },
   {
-    id: 3,
+    id: Math.floor(Math.random() * 100000).toString(),
     title: "Next.js & React - The Complete Guide.",
     platform: "Udemy",
   },
   {
-    id: 5,
+    id: Math.floor(Math.random() * 100000).toString(),
     title: "The MERN Fullstack Guide.",
     platform: "Udemy",
   },

@@ -1,6 +1,7 @@
 export const projects = [
   {
-    id: 4,
+    id: Math.floor(Math.random() * 100000).toString(),
+
     title: "Movies Hive",
     tools: "React Native, React, Tailwind CSS",
     link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
@@ -9,7 +10,8 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: Math.floor(Math.random() * 100000).toString(),
+
     title: "TodoPro",
     tools: "React.js, Firebase, Node.js/Express.js, MongoDB",
     link: "https://todopro-web.netlify.app/",
@@ -18,7 +20,8 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: Math.floor(Math.random() * 100000).toString(),
+
     title: "Pennywise",
     tools: "React, Firebase, Tailwind CSS",
     link: "https://pennywisee.netlify.app/",
@@ -27,7 +30,8 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: Math.floor(Math.random() * 100000).toString(),
+
     title: "Rasoi House",
     tools: "React, Firebase, Tailwind CSS",
     link: "https://rasoi-housee.netlify.app/",
