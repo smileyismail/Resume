@@ -26,7 +26,7 @@ export const projects = [
     tools: "React, Firebase, Tailwind CSS",
     link: "https://pennywisee.netlify.app/",
     points: [
-      "Expense-tracking website that provides an online platform for categorizing, tracking, and analyzing expenses.",
+      "Expense-tracking website that provides an online platform for categorizing, tracking, and analysing expenses.",
     ],
   },
   {
