@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Todo App",
-    tools: "React Native, React, Redux, React Navigation",
+    tools: "React Native, React, Redux, Node, Express, Firebase",
     link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
     points: ["A Mobile App with CRUD operations to manage the tasks."],
   },
