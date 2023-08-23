@@ -31,10 +31,7 @@ export const skills = [
     id: 8,
     title: "Material UI",
   },
-  {
-    id: 9,
-    title: "Bootstrap",
-  },
+
   {
     id: 10,
     title: "HTML / CSS / JavaScript",
