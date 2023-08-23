@@ -11,15 +11,15 @@ export const projects = [
     title: "Movies Hive",
     tools: "React Native, React, Tailwind CSS",
     link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
-    points: ["A Mobile App with CRUD operations to manage the tasks."],
+    points: [
+      "A Mobile App showcases the details all the Movies. The details are constantly updated through a connection to an API.",
+    ],
   },
   {
     title: "Todo App",
     tools: "React Native, React, Redux, React Navigation",
     link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
-    points: [
-      "This Mobile App showcases the details all the Movies. The details are constantly updated through a connection to an API",
-    ],
+    points: ["A Mobile App with CRUD operations to manage the tasks."],
   },
   {
     title: "Pennywise",
