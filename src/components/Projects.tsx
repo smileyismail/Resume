@@ -1,6 +1,5 @@
-import React from "react";
-
-import { AiFillProject } from "react-icons/ai";
+import { faDiagramProject } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HiExternalLink } from "react-icons/hi";
 
 import { projects } from "../data/projects";
@@ -8,10 +7,14 @@ import { projects } from "../data/projects";
 const Projects = () => {
   return (
     <div>
-      <div className="flex gap-1.5 justify-start items-center my-3">
-        <AiFillProject className="text-4xl text-accent" />
-        <h2 className="text-2xl font-bold mb-1 text-black">Projects</h2>
+      <div className="flex mb-3 gap-1.5">
+        <FontAwesomeIcon
+          icon={faDiagramProject}
+          className="text-4xl text-accent"
+        />
+        <h2 className="text-2xl font-bold pt-1 text-black">Projects</h2>
       </div>
+
       <ul className="pl-7 text-sm flex flex-col gap-1">
         {projects.map((project, index) => (
           <li key={index} className="marker:font-bold list-decimal">

@@ -1,16 +1,16 @@
-import React from "react";
-
-import { BiSolidBriefcase } from "react-icons/bi";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { experience } from "../data/experience";
 
 const Experiences = () => {
   return (
     <div>
-      <div className="flex gap-1.5 justify-start items-center my-3">
-        <BiSolidBriefcase className="text-4xl text-accent" />
-        <h2 className="text-2xl font-bold mb-1 text-black">Work Experience</h2>
+      <div className="flex my-3 gap-1.5">
+        <FontAwesomeIcon icon={faBriefcase} className="text-4xl text-accent" />
+        <h2 className="text-2xl font-bold pt-1 text-black">Work Experience</h2>
       </div>
+
       <ul className="pl-7 text-sm flex flex-col gap-1">
         {experience.map((item, index) => (
           <li key={index} className="marker:font-bold list-decimal">

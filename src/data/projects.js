@@ -1,32 +1,18 @@
 export const projects = [
   {
-    title: "E States",
-    tools: "React Native, React, Redux, Tailwind CSS",
-    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
-    points: [
-      "Mobile App to add and view different properties for e-state company's.",
-    ],
-  },
-  {
     title: "Movies Hive",
-    tools: "React Native, React, Tailwind CSS",
-    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+    tools: "React Native, React, Tailwind CSS, Material UI",
+    link: "https://movies-hive.netlify.app/movies/now_playing",
     points: [
-      "A Mobile App showcases the details all the Movies. The details are constantly updated through a connection to an API.",
+      "A Mobile App and a Website to showcases the details all the Movies. The details are constantly updated through a Backend API.",
     ],
-  },
-  {
-    title: "Todo App",
-    tools: "React Native, React, Redux, Node, Express, Firebase",
-    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
-    points: ["A Mobile App with CRUD operations to manage the tasks."],
   },
   {
     title: "Pennywise",
     tools: "React, Firebase, Tailwind CSS",
     link: "https://pennywisee.netlify.app/",
     points: [
-      "Expense-tracking website that provides an online platform for categorizing, tracking, and analysing expenses.",
+      "A Mobile App and a Website for Expense-tracking. The data is stored in the Mongo DB database and is synced across all platforms.",
     ],
   },
   {
@@ -37,6 +23,27 @@ export const projects = [
       "A website designed to help users effectively manage their tasks.",
     ],
   },
+  {
+    title: "E States",
+    tools: "React Native, React, Redux, Tailwind CSS",
+    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+    points: [
+      "Mobile App to add and view different properties for e-state company's.",
+    ],
+  },
+
+  {
+    title: "Mini Games Studio",
+    tools: "HTML, CSS, JavaScript",
+    link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+    points: ["A Mobile App with CRUD operations to manage the tasks."],
+  },
+  // {
+  //   title: "Todo App",
+  //   tools: "React Native, React, Redux, Node, Express, Firebase",
+  //   link: "https://javascript-projectss.netlify.app/01_minigamesstudio/",
+  //   points: ["A Mobile App with CRUD operations to manage the tasks."],
+  // },
 
   {
     title: "Rasoi House",

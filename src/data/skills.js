@@ -38,7 +38,7 @@ export const skills = [
   },
   {
     id: 11,
-    title: "Postman",
+    title: "Wordpress",
   },
   {
     id: 12,

@@ -1,17 +1,14 @@
-import React from "react";
-
-import { FaUserGraduate } from "react-icons/fa";
+import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
 import { educations } from "../data/educations";
+import IconHeading from "./UI/IconHeading";
 
 const Educations = () => {
   return (
-    <div>
-      <div className="flex gap-1.5 justify-start items-center my-3">
-        <FaUserGraduate className="text-3xl text-accent" />
-        <h2 className="text-2xl font-bold mb-1 text-black">Education</h2>
-      </div>
-      <ul className="pl-7 text-sm flex flex-col gap-1 text-neutral-900">
+    <div className="mb-2">
+      <IconHeading title="Education" icon={faUserGraduate} />
+
+      <ul className="pl-7 flex flex-col gap-1 text-neutral-900">
         {educations.map((education, index) => (
           <li key={index} className="marker:text-accent list-disc">
             <p className="text-sm">{education.title}</p>

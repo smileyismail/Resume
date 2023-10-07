@@ -1,16 +1,13 @@
-import React from "react";
-
-import { FaScrewdriverWrench } from "react-icons/fa6";
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 
 import { skills } from "../data/skills";
+import IconHeading from "./UI/IconHeading";
 
 const Skills = () => {
   return (
-    <div>
-      <div className="flex gap-1.5 justify-start items-center my-3">
-        <FaScrewdriverWrench className="text-3xl text-accent" />
-        <h2 className="text-2xl font-bold mb-1 text-black">Skills</h2>
-      </div>
+    <div className="mb-2">
+      <IconHeading title="Skills" icon={faScrewdriverWrench} />
+
       <ul className="pl-7 text-sm flex flex-col gap-1">
         {skills.map((skill, index) => (
           <li
