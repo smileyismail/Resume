@@ -13,7 +13,9 @@ const Contacts = () => {
           target="_"
         >
           <div className="text-2xl text-accent">{contact.icon}</div>
-          <p className="mb-0.5 text-sm text-neutral-100">{contact.title}</p>
+          <p className="mb-0.5 text-sm text-neutral-100 mt-1">
+            {contact.title}
+          </p>
         </a>
       ))}
     </div>

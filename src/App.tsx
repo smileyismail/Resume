@@ -31,15 +31,15 @@ const App: React.FC = () => {
         <section className="h-full overflow-hidden flex gap-1.5">
           <div className="w-[70%] bg-white rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
             <Experiences />
-            <hr />
+            <hr className="h-[2px] bg-secondary" />
             <Projects />
           </div>
 
           <div className="w-[30%] bg-primary rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
             <Skills />
-            <hr />
+            <hr className="h-[2px] bg-secondary" />
             <Educations />
-            <hr />
+            <hr className="h-[2px] bg-secondary" />
             <Courses />
           </div>
         </section>
