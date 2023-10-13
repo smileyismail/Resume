@@ -1,11 +1,13 @@
-import React from "react";
-
-import { contacts } from "../data/contacts";
+import { callCenterContacts } from "../data/contacts";
 
 const Contacts = () => {
   return (
-    <div className="h-full flex flex-col justify-evenly">
-      {contacts.map((contact, index) => (
+    <div
+      className={`h-full flex flex-col ${
+        callCenterContacts.length === 6 ? "justify-evenly" : "justify-evenly"
+      }`}
+    >
+      {callCenterContacts.map((contact, index) => (
         <a
           key={index}
           href={contact.link}

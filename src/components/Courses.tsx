@@ -1,9 +1,9 @@
 import React from "react";
 
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-
-import { courses } from "../data/courses";
 import IconHeading from "./UI/IconHeading";
+
+import { callCenterCourses } from "../data/courses";
 
 const Courses = () => {
   return (
@@ -11,10 +11,10 @@ const Courses = () => {
       <IconHeading title="Courses" icon={faLaptopCode} />
 
       <ul className="pl-7 flex flex-col gap-1.5 text-neutral-900">
-        {courses.map((courses, index) => (
+        {callCenterCourses.map((course, index) => (
           <li key={index} className="marker:text-accent list-disc">
-            <p className="text-sm">{courses.title}</p>
-            <p className="text-xs">{courses.platform}</p>
+            <p className="text-sm">{course.title}</p>
+            <p className="text-xs">{course.platform}</p>
           </li>
         ))}
       </ul>

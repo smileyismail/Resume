@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Educations from "./components/Educations";
 import Courses from "./components/Courses";
+import Languages from "./components/Languages";
 
 const App: React.FC = () => {
   const componentRef: any = useRef();
@@ -31,8 +32,8 @@ const App: React.FC = () => {
         <section className="h-full overflow-hidden flex gap-1.5">
           <div className="w-[70%] bg-white rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
             <Experiences />
-            <hr className="h-[2px] bg-secondary" />
-            <Projects />
+            {/* <hr className="h-[2px] bg-secondary" /> */}
+            {/* <Projects /> */}
           </div>
 
           <div className="w-[30%] bg-primary rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
@@ -41,6 +42,8 @@ const App: React.FC = () => {
             <Educations />
             <hr className="h-[2px] bg-secondary" />
             <Courses />
+            <hr className="h-[2px] bg-secondary" />
+            <Languages />
           </div>
         </section>
       </section>

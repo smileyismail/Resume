@@ -2,14 +2,17 @@ export const educations = [
   {
     id: 4,
 
-    title: "B. Tech in Computer Science Engineering.",
+    title: "B. Tech",
+    major: "Computer Science Engineering (CSE)",
     university: "JNTUH",
     duration: "2018 - 2022",
   },
   {
     id: 44,
-    title: "Intermediate in Maths, Physics and Chemistry.",
+    title: "Intermediate ",
+
+    major: "Maths, Physics and Chemistry (MPC)",
     university: "TSBIE",
-    duration: "2015 - 2017",
+    duration: "2016 - 2018",
   },
 ];

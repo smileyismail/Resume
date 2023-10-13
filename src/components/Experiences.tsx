@@ -24,13 +24,13 @@ const Experiences = () => {
               </span>
               &nbsp;&nbsp;
               <span className="text-xs text-neutral-700">
-                {item.type ? item.type : ""}
+                {item.type ? `(${item.type})` : ""}
               </span>
             </p>
             <p className="text-xs text-neutral-700">({item.duration})</p>
 
             <ul className="pl-7 text-sm flex flex-col gap-1 m-1">
-              {item.points.map((point) => (
+              {item.points.callCenter.map((point) => (
                 <li
                   key={item.id}
                   className="marker:text-accent list-disc text-neutral-900"
