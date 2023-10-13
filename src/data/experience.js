@@ -15,7 +15,7 @@ export const experience = [
     id: 2,
     company: "V-Cube Solutions",
     designation: "Front-End Developer",
-    type: "",
+    type: "job",
     duration: "October 2021 - January 2022",
     points: [
       "Worked on the frontend part of full-stack projects that were built using Python and Java.",
