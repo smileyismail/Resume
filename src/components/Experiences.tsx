@@ -23,7 +23,9 @@ const Experiences = () => {
                 {item.company}
               </span>
               &nbsp;&nbsp;
-              <span className="text-xs text-neutral-700">({item?.type})</span>
+              <span className="text-xs text-neutral-700">
+                {item.type ? item.type : ""}
+              </span>
             </p>
             <p className="text-xs text-neutral-700">({item.duration})</p>
 
