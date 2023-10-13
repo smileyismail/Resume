@@ -4,7 +4,7 @@ import ReactToPrint from "react-to-print";
 import Bio from "./components/Bio";
 import Contacts from "./components/Contacts";
 import Experiences from "./components/Experiences";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Educations from "./components/Educations";
 import Courses from "./components/Courses";
