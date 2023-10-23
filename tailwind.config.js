@@ -9,9 +9,6 @@ module.exports = {
         accent: "#00ADB5",
       },
     },
-    fontFamily: {
-      roboto: "Roboto, sans-serif",
-    },
   },
   plugins: [],
 };

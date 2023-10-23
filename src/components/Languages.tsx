@@ -1,12 +1,11 @@
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
-import IconHeading from "./UI/IconHeading";
-
 import { languages } from "../data/languages";
 
 const Languages = () => {
   return (
     <div>
-      <IconHeading title="Languages" icon={faLanguage} />
+      <div className="flex my-3 gap-1.5">
+        <h2 className="text-2xl font-bold pt-1 text-black">Languages</h2>
+      </div>
 
       <ul className="pl-7 flex flex-col gap-1.5 text-neutral-900">
         {languages.map((language, index) => (

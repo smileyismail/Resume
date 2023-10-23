@@ -5,17 +5,17 @@ export const developerSkills = [
   "MongoDb",
   "Firebase",
   "Redux / Redux Toolkit",
+  "Wordpress",
   "Tailwind CSS",
   "Material UI",
   "HTML / CSS / JavaScript",
-  "Wordpress",
   "Git / Github",
 ];
 
 export const callCenterSkills = [
   "Microsoft Office",
   "HTML / CSS / JavaScript",
-  "Complex problem-solving.",
+  "Complex problem-solving",
   "Technical Proficiency",
   "Technical Support",
   "Adaptability",

@@ -1,6 +1,24 @@
 export const experience = [
   {
-    id: 1,
+    company: "JRS Healthcare",
+    designation: "WordPress Developer",
+    type: "",
+    duration: "July 2022 - October 2023",
+    points: {
+      developer: [
+        "Created their official website using WordPress.",
+        "Made use of Different plugins like Elementor, Woocommerce, etc.",
+      ],
+      callCenter: [
+        "Provided customer support by addressing inquiries, resolving issues, and explaining the interface.",
+        "Managed data entry and databases for easy access to the team members.",
+        "Integrated with the backend technologies such as Node.js, Express.js, and Firebase.",
+        "Collaborated with designers, project managers, and other developers to deliver projects on time and utilizing semantic methodologies and version control tools such as Git.",
+        "Developed and maintained applications using React.js and Next.js",
+      ],
+    },
+  },
+  {
     company: "Dave Brother's Technology",
     designation: "React.js Developer",
     type: "Internship",
@@ -21,7 +39,6 @@ export const experience = [
     },
   },
   {
-    id: 2,
     company: "V-Cube Solutions",
     designation: "Front-End Developer",
     type: "",

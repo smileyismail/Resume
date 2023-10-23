@@ -17,17 +17,17 @@ export const developerContacts = [
   },
   {
     icon: <GiEarthAfricaEurope />,
-    title: "smiley-ismail.netlify.app/",
+    title: "smiley-ismail.netlify.app",
     link: "https://smiley-ismail.netlify.app/",
   },
   {
     icon: <BiLogoGithub />,
-    title: "github.com/smileyismail/",
+    title: "github.com/smileyismail",
     link: "https://github.com/smileyismail/",
   },
   {
     icon: <AiOutlineLinkedin />,
-    title: "linkedin.com/in/smileyismail/",
+    title: "linkedin.com/in/smileyismail",
     link: "https://www.linkedin.com/in/smileyismail/",
   },
   {
@@ -51,7 +51,7 @@ export const callCenterContacts = [
   {
     icon: <AiOutlineLinkedin />,
     title: "linkedin.com/in/smileyismail/",
-    link: "https://www.linkedin.com/in/smileyismail/",
+    link: "https://www.linkedin.com/in/smileyismail",
   },
   {
     icon: <MdOutlineLocationOn />,

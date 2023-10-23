@@ -4,7 +4,7 @@ import ReactToPrint from "react-to-print";
 import Bio from "./components/Bio";
 import Contacts from "./components/Contacts";
 import Experiences from "./components/Experiences";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Educations from "./components/Educations";
 import Courses from "./components/Courses";
@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const componentRef: any = useRef();
 
   return (
-    <div className="p-16 font-roboto flex flex-col justify-center text-black justify min-w-[25cm] overflow-hidden">
+    <div className="p-16 flex flex-col justify-center text-black justify min-w-[25cm] overflow-hidden">
       <section
         ref={componentRef}
         className="bg-white p-1.5 w-[21cm] h-[29.7cm] min-w-[21cm] min-h-[29.7cm] max-w-[21cm] max-h-[29.7cm] overflow-hidden mx-auto flex flex-col gap-1.5"
@@ -32,18 +32,18 @@ const App: React.FC = () => {
         <section className="h-full overflow-hidden flex gap-1.5">
           <div className="w-[70%] bg-white rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
             <Experiences />
-            {/* <hr className="h-[2px] bg-secondary" /> */}
-            {/* <Projects /> */}
+            <hr className="h-[1.5px] bg-secondary" />
+            <Projects />
           </div>
 
           <div className="w-[30%] bg-primary rounded-md px-1.5 py-2.5 flex flex-col gap-1.5">
             <Skills />
-            <hr className="h-[2px] bg-secondary" />
+            <hr className="h-[1.5px] bg-secondary" />
             <Educations />
-            <hr className="h-[2px] bg-secondary" />
+            <hr className="h-[1.5px] bg-secondary" />
             <Courses />
-            <hr className="h-[2px] bg-secondary" />
-            <Languages />
+            <hr className="h-[1.5px] bg-secondary" />
+            {/* <Languages /> */}
           </div>
         </section>
       </section>

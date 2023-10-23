@@ -1,21 +1,21 @@
-import { callCenterContacts } from "../data/contacts";
+import { developerContacts } from "../data/contacts";
 
 const Contacts = () => {
   return (
     <div
       className={`h-full flex flex-col ${
-        callCenterContacts.length === 6 ? "justify-evenly" : "justify-evenly"
+        developerContacts.length === 6 ? "justify-evenly" : "justify-evenly"
       }`}
     >
-      {callCenterContacts.map((contact, index) => (
+      {developerContacts.map((contact, index) => (
         <a
           key={index}
           href={contact.link}
-          className="flex justify-start items-center gap-1 text-sm"
+          className="flex justify-start items-center gap-1"
           target="_"
         >
           <div className="text-2xl text-accent">{contact.icon}</div>
-          <p className="mb-0.5 text-sm text-neutral-100 mt-1">
+          <p className="text-[15px] font-semibold text-neutral-100 my-1">
             {contact.title}
           </p>
         </a>
